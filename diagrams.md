@@ -4,9 +4,8 @@ It is often much easier to explain how a script works or should be used by using
 
 For example,
 
-```
+````
 ```mermaid
-%%{ init: { 'flowchart': { 'curve': 'linearOpen' } } }%%
 graph LR;
     A[Create branch]-->B[Modify code];
     B-->C[Create pull request];
@@ -14,6 +13,8 @@ graph LR;
     D-->|Yes|E[End];
 		D-->|No|B;
 ```
+````
+
 is rendered:
 
 ```mermaid
